@@ -1,5 +1,5 @@
 # KT_AIVLE_SCHOOL_MINI_PROJECT 3차
-AI 면접관 AGENT
+클라우드 기본 인프라 설계 및 구현(AWS)
 
 (2025.05.16 ~ 2025.05.19)
 
