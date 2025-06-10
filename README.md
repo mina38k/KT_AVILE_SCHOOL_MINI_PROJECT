@@ -4,6 +4,6 @@
 ## 2차 MINI_PROJECT 
 - AI 면접관 Agent
 ## 3차 MINI_PROJECT 
-- 클라우드 기본 인프라 구현
+- 클라우드 기본 인프라 설계 및 구현(AWS)
 ## 4차 MINI_PROJECT 
 - 도서관리 시스템 개발(AI를 활용한 도서표지 이미지 생성)
