@@ -7,3 +7,5 @@
 - 클라우드 기본 인프라 설계 및 구현(AWS)
 ## 4차 MINI_PROJECT 
 - Spring Boot + React 기반 도서 관리 시스템 및 AI를 활용한 표지 이미지 생성 시스템 개발
+## 5차 MINI_PROJECT 
+- 클라우드 네이티브 앱 개발 - AI 기반 자동 출판 및 구독 플랫폼 (KT 걷다가서재)
