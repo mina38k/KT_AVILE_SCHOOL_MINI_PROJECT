@@ -1,0 +1,273 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.example:boot-camp-gateway >--------------------
+[INFO] Building boot-camp-gateway 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:2.1.1.RELEASE:run (default-cli) > test-compile @ boot-camp-gateway >>>
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ boot-camp-gateway ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ boot-camp-gateway ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ boot-camp-gateway ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workspaces/aivlemini5_2/gateway/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.0:testCompile (default-testCompile) @ boot-camp-gateway ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< spring-boot:2.1.1.RELEASE:run (default-cli) < test-compile @ boot-camp-gateway <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:2.1.1.RELEASE:run (default-cli) @ boot-camp-gateway ---
+2025-07-03 03:01:21.823  INFO 137143 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$69674a5a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.1.RELEASE)
+
+2025-07-03 03:01:22.026  INFO 137143 --- [           main] aivlemini.Application                    : No active profile set, falling back to default profiles: default
+2025-07-03 03:01:22.776  INFO 137143 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=2ff7c8f6-c68f-3545-896d-88b448e76793
+2025-07-03 03:01:22.803  INFO 137143 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$69674a5a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-03 03:01:23.479  INFO 137143 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2025-07-03 03:01:23.480  INFO 137143 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2025-07-03 03:01:23.480  INFO 137143 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2025-07-03 03:01:23.480  INFO 137143 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2025-07-03 03:01:23.480  INFO 137143 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2025-07-03 03:01:23.480  INFO 137143 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2025-07-03 03:01:23.480  INFO 137143 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2025-07-03 03:01:23.480  INFO 137143 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2025-07-03 03:01:23.481  INFO 137143 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2025-07-03 03:01:23.481  INFO 137143 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBodyPredicateFactory]
+2025-07-03 03:01:23.481  INFO 137143 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2025-07-03 03:01:23.481  INFO 137143 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2025-07-03 03:01:23.481  INFO 137143 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-07-03 03:01:23.735  INFO 137143 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2025-07-03 03:01:24.266  INFO 137143 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-07-03 03:01:24.281 ERROR 137143 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8088 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8088 or configure this application to listen on another port.
+
+[WARNING] 
+java.lang.reflect.InvocationTargetException
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:118)
+    at java.lang.reflect.Method.invoke (Method.java:580)
+    at org.springframework.boot.maven.AbstractRunMojo$LaunchRunner.run (AbstractRunMojo.java:558)
+    at java.lang.Thread.run (Thread.java:1583)
+Caused by: org.springframework.boot.web.server.PortInUseException: Port 8088 is already in use
+    at org.springframework.boot.web.embedded.netty.NettyWebServer.start (NettyWebServer.java:73)
+    at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext$ServerManager.start (ReactiveWebServerApplicationContext.java:232)
+    at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.startReactiveWebServer (ReactiveWebServerApplicationContext.java:130)
+    at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.finishRefresh (ReactiveWebServerApplicationContext.java:122)
+    at org.springframework.context.support.AbstractApplicationContext.refresh (AbstractApplicationContext.java:549)
+    at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh (ReactiveWebServerApplicationContext.java:67)
+    at org.springframework.boot.SpringApplication.refresh (SpringApplication.java:775)
+    at org.springframework.boot.SpringApplication.refreshContext (SpringApplication.java:397)
+    at org.springframework.boot.SpringApplication.run (SpringApplication.java:316)
+    at org.springframework.boot.SpringApplication.run (SpringApplication.java:1260)
+    at org.springframework.boot.SpringApplication.run (SpringApplication.java:1248)
+    at aivlemini.Application.main (Application.java:13)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:103)
+    at java.lang.reflect.Method.invoke (Method.java:580)
+    at org.springframework.boot.maven.AbstractRunMojo$LaunchRunner.run (AbstractRunMojo.java:558)
+    at java.lang.Thread.run (Thread.java:1583)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.616 s
+[INFO] Finished at: 2025-07-03T03:01:24Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:2.1.1.RELEASE:run (default-cli) on project boot-camp-gateway: An exception occurred while running. null: InvocationTargetException: Port 8088 is already in use -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.example:boot-camp-gateway >--------------------
+[INFO] Building boot-camp-gateway 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:2.1.1.RELEASE:run (default-cli) > test-compile @ boot-camp-gateway >>>
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ boot-camp-gateway ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ boot-camp-gateway ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ boot-camp-gateway ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workspaces/aivlemini5_2/gateway/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.0:testCompile (default-testCompile) @ boot-camp-gateway ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< spring-boot:2.1.1.RELEASE:run (default-cli) < test-compile @ boot-camp-gateway <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:2.1.1.RELEASE:run (default-cli) @ boot-camp-gateway ---
+2025-07-03 03:02:43.824  INFO 138910 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d0c2c878] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.1.RELEASE)
+
+2025-07-03 03:02:44.656  INFO 138910 --- [           main] aivlemini.Application                    : No active profile set, falling back to default profiles: default
+2025-07-03 03:02:47.691  INFO 138910 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=2ff7c8f6-c68f-3545-896d-88b448e76793
+2025-07-03 03:02:47.753  INFO 138910 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d0c2c878] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-03 03:02:50.021  INFO 138910 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2025-07-03 03:02:50.022  INFO 138910 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2025-07-03 03:02:50.022  INFO 138910 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2025-07-03 03:02:50.023  INFO 138910 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2025-07-03 03:02:50.025  INFO 138910 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2025-07-03 03:02:50.025  INFO 138910 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2025-07-03 03:02:50.025  INFO 138910 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2025-07-03 03:02:50.026  INFO 138910 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2025-07-03 03:02:50.026  INFO 138910 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2025-07-03 03:02:50.026  INFO 138910 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBodyPredicateFactory]
+2025-07-03 03:02:50.026  INFO 138910 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2025-07-03 03:02:50.026  INFO 138910 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2025-07-03 03:02:50.026  INFO 138910 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-07-03 03:02:51.346  INFO 138910 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2025-07-03 03:02:53.457  INFO 138910 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-07-03 03:02:53.504 ERROR 138910 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8088 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8088 or configure this application to listen on another port.
+
+[WARNING] 
+java.lang.reflect.InvocationTargetException
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:118)
+    at java.lang.reflect.Method.invoke (Method.java:580)
+    at org.springframework.boot.maven.AbstractRunMojo$LaunchRunner.run (AbstractRunMojo.java:558)
+    at java.lang.Thread.run (Thread.java:1583)
+Caused by: org.springframework.boot.web.server.PortInUseException: Port 8088 is already in use
+    at org.springframework.boot.web.embedded.netty.NettyWebServer.start (NettyWebServer.java:73)
+    at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext$ServerManager.start (ReactiveWebServerApplicationContext.java:232)
+    at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.startReactiveWebServer (ReactiveWebServerApplicationContext.java:130)
+    at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.finishRefresh (ReactiveWebServerApplicationContext.java:122)
+    at org.springframework.context.support.AbstractApplicationContext.refresh (AbstractApplicationContext.java:549)
+    at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh (ReactiveWebServerApplicationContext.java:67)
+    at org.springframework.boot.SpringApplication.refresh (SpringApplication.java:775)
+    at org.springframework.boot.SpringApplication.refreshContext (SpringApplication.java:397)
+    at org.springframework.boot.SpringApplication.run (SpringApplication.java:316)
+    at org.springframework.boot.SpringApplication.run (SpringApplication.java:1260)
+    at org.springframework.boot.SpringApplication.run (SpringApplication.java:1248)
+    at aivlemini.Application.main (Application.java:13)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:103)
+    at java.lang.reflect.Method.invoke (Method.java:580)
+    at org.springframework.boot.maven.AbstractRunMojo$LaunchRunner.run (AbstractRunMojo.java:558)
+    at java.lang.Thread.run (Thread.java:1583)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  25.323 s
+[INFO] Finished at: 2025-07-03T03:02:53Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:2.1.1.RELEASE:run (default-cli) on project boot-camp-gateway: An exception occurred while running. null: InvocationTargetException: Port 8088 is already in use -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.example:boot-camp-gateway >--------------------
+[INFO] Building boot-camp-gateway 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:2.1.1.RELEASE:run (default-cli) > test-compile @ boot-camp-gateway >>>
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ boot-camp-gateway ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ boot-camp-gateway ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ boot-camp-gateway ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workspaces/aivlemini5_2/gateway/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.0:testCompile (default-testCompile) @ boot-camp-gateway ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< spring-boot:2.1.1.RELEASE:run (default-cli) < test-compile @ boot-camp-gateway <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:2.1.1.RELEASE:run (default-cli) @ boot-camp-gateway ---
+2025-07-03 03:12:22.656  INFO 3732 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5444d943] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.1.RELEASE)
+
+2025-07-03 03:12:23.798  INFO 3732 --- [           main] aivlemini.Application                    : No active profile set, falling back to default profiles: default
+2025-07-03 03:12:26.329  INFO 3732 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=2ff7c8f6-c68f-3545-896d-88b448e76793
+2025-07-03 03:12:26.426  INFO 3732 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5444d943] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-03 03:12:28.580  INFO 3732 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2025-07-03 03:12:28.581  INFO 3732 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2025-07-03 03:12:28.581  INFO 3732 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2025-07-03 03:12:28.581  INFO 3732 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2025-07-03 03:12:28.581  INFO 3732 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2025-07-03 03:12:28.581  INFO 3732 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2025-07-03 03:12:28.581  INFO 3732 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2025-07-03 03:12:28.581  INFO 3732 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2025-07-03 03:12:28.581  INFO 3732 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2025-07-03 03:12:28.582  INFO 3732 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBodyPredicateFactory]
+2025-07-03 03:12:28.585  INFO 3732 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2025-07-03 03:12:28.585  INFO 3732 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2025-07-03 03:12:28.585  INFO 3732 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-07-03 03:12:29.679  INFO 3732 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2025-07-03 03:12:32.306  INFO 3732 --- [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 8088
+2025-07-03 03:12:32.314  INFO 3732 --- [           main] aivlemini.Application                    : Started Application in 13.191 seconds (JVM running for 40.728)

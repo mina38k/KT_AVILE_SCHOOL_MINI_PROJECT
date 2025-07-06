@@ -1,0 +1,15 @@
+trigger:
+- main
+
+variables:
+  - group: aiservice-variables
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- script: |
+    echo "Deploying to AKS..."
+    export OPENAI_API_KEY=$(OPENAI_API_KEY)
+    envsubst < kubernetes/deployment.yaml | kubectl apply -f -
+  displayName: 'Deploy AISERVICE to AKS'
